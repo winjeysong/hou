@@ -1,0 +1,25 @@
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header {
+  height: 64px;
+  width: 100%;
+  color: #efefef;
+  background: #1b2330;
+}
+
+.content-wrapper {
+  padding: 30px 35px;
+  overflow-y: auto;
+  box-shadow: 0 0 6px 1px #dfdfdf inset;
+}
+
+.footer {
+  padding: 0;
+  text-align: center;
+  color: #aeaeae;
+  font-style: 14px;
+}

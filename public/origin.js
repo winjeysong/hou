@@ -1,0 +1,83 @@
+// 组合导航
+const origin1 = [
+  {date:180702, lateral:0.04, vertical:0.08 , forward:0.10},
+  {date:180704, lateral:0.06, vertical:0.10 , forward:0.09},
+  {date:180705, lateral:0.07, vertical:0.09 , forward:0.10},
+  {date:180710, lateral:0.07, vertical:0.10 , forward:0.07},
+  {date:180711, lateral:0.10, vertical:0.09 , forward:0.08},
+  {date:180712, lateral:0.06, vertical:0.10 , forward:0.10},
+  {date:180714, lateral:0.10, vertical:0.14 , forward:0.21},
+  {date:180718, lateral:0.08, vertical:0.11 , forward:0.15},
+  {date:180719, lateral:0.09, vertical:0.14 , forward:0.12},
+  {date:180720, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180721, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180722, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180723, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180724, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180725, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180726, lateral:0.01, vertical:0.01 , forward:0.01},
+];
+// 紧耦合
+const origin2 = [
+  {date:180702, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180704, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180705, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180710, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180711, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180712, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180714, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180718, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180719, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180720, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180721, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180722, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180723, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180724, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180725, lateral:0.01, vertical:0.01 , forward:0.01},
+  {date:180726, lateral:0.01, vertical:0.01 , forward:0.01},
+];
+// 组合导航
+const origin3 = [
+  {date:180702, pitch:0.07, roll:0.06 , azimuth:0.15},
+  {date:180704, pitch:0.11, roll:0.11 , azimuth:0.21},
+  {date:180705, pitch:0.13, roll:0.12 , azimuth:0.28},
+  {date:180710, pitch:0.10, roll:0.12 , azimuth:0.19},
+  {date:180711, pitch:0.07, roll:0.10 , azimuth:0.19},
+  {date:180712, pitch:0.08, roll:0.05 , azimuth:0.12},
+  {date:180714, pitch:0.05, roll:0.04 , azimuth:0.14},
+  {date:180718, pitch:0.04, roll:0.03 , azimuth:0.11},
+  {date:180719, pitch:0.09, roll:0.14 , azimuth:0.19},
+  {date:180720, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180721, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180722, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180723, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180724, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180725, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180726, pitch:0.01, roll:0.01 , azimuth:0.01},
+];
+// 紧耦合
+const origin4 = [
+  {date:180702, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180704, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180705, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180710, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180711, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180712, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180714, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180718, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180719, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180720, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180721, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180722, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180723, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180724, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180725, pitch:0.01, roll:0.01 , azimuth:0.01},
+  {date:180726, pitch:0.01, roll:0.01 , azimuth:0.01},
+];
+
+window.origin = {
+  origin1,
+  origin2,
+  origin3,
+  origin4,
+};
