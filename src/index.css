@@ -4,7 +4,7 @@ html, body, :global(#root) {
 }
 
 :global(#root) {
-  background: url(./assets/background.webp) no-repeat center -20px;
+  background: url(./assets/background.jpg) no-repeat center -20px;
   background-size: 120% 120%;
 }
 
