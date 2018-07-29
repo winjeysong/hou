@@ -3,3 +3,16 @@ html, body, :global(#root) {
   height: 100%;
 }
 
+:global(#root) {
+  background: url(./assets/background.webp) no-repeat center -20px;
+  background-size: 120% 120%;
+}
+
+:global(.ant-card-hoverable) {
+  cursor: default !important;
+}
+
+:global(.ant-card-hoverable:hover) {
+  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}

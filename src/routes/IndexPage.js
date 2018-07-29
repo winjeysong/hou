@@ -74,7 +74,7 @@ class IndexPage extends React.Component {
       <TimelineChart data={data4} titleMap={titleMap2} height={400} />,
     ];
     const commonProps = {
-      style: { marginBottom: 30 },
+      style: { marginBottom: 30, background: '#eee' },
       tabList,
       hoverable: true,
       bordered: false,

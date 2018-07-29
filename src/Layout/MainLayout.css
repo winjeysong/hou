@@ -1,25 +1,48 @@
 .wrapper {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   height: 100%;
+  background-color: transparent;
 }
 
 .header {
   height: 64px;
-  width: 100%;
+  font-size: 24px;
   color: #efefef;
-  background: #1b2330;
+  background-color: transparent;
+}
+
+.header > img {
+  margin-right: 20px;
 }
 
 .content-wrapper {
-  padding: 30px 35px;
+  padding: 10px 35px 30px;
   overflow-y: auto;
-  box-shadow: 0 0 6px 1px #dfdfdf inset;
+  background-color: transparent;
 }
 
 .footer {
   padding: 0;
   text-align: center;
-  color: #aeaeae;
-  font-style: 14px;
+  color: #fff;
+  font-size: 14px;
+  background-color: transparent;
+}
+
+.desc {
+  color: #eaeaea;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px){
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1680px){
+  .wrapper {
+    width: 80%;
+  }
 }
